@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta />
+	<title>Panther Team</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="screen">
+		<i class="fas fa-volume-mute fa-2x" id="sound"></i>
+		<video autoplay loop muted id="videobackground">
+			<source src="./sound/background2.mp4" type="video/mp4" />
+		</video>
+		<!-- <audio id="audioClick">
+			<source src="./sound/Warriors.mp4" loop />
+		</audio>
+		<audio id="audioHover">
+			<source src="./sound/Warriors.mp4" loop />
+		</audio>-->
+		<!--
+		<p>
+			Set Player: <input type="number" id="numPlayer" value="2" name="numPlayer" min="2" max="5">
+		</p> -->
+		<div class="menu">
+			<h1>Boomber Man</h1>
+			<h3>Panther Team</h3>
+			<ul>
+				<!-- <li><button id="start"> Start Game</button></li> -->
+				<li><a href="startGame.html" id="start">Start Game</a></li>
+				<li><a href="rule.html">Rules</a></li>
+				<li><a href="setting.html">Setting</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<script>
+		function quitApplication() {
+			// Close the current browser window
+			window.close();
+		}
+	</script>
+</body>
+
+</html>
